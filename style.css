@@ -43,7 +43,16 @@ iframe {
   max-width: 1200px;
   margin: 1.5rem auto;
 }
-
+.applet-wide {
+    max-width: 1200px;
+    margin: 1.5rem calc(50% - 50vw); /* Centers it relative to the viewport */
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
 /* ===== Footer ===== */
 footer {
   text-align: center;
